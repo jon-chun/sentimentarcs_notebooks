@@ -178,7 +178,25 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The recommended path 
+SentimentArcs is a pipeline of Google Colab Jupyter Notebooks run in sequence as follows:
+
+<ol>
+<li>Notebook 1: Text Preprocessing/Cleaning
+<li>Notebook 2: Sentiment Analysis Models Part A: SyuzhetR and SentimentR 
+<li>Notebook 3: Sentiment Analysis Models Part B: Lexicons to ML 
+<li>Notebook 4: Sentiment Analysis Models Part C: DNN and Transformers
+<li>Notebook 5: Anlysis, Visualizations and Extraction
+</ol>
+
+Data flows through the project subdirectory structure in a corresponding manner:
+
+<ol>
+<li>text_raw: minimally prepared textfiles for the corpus
+<li>text_clean: text further cleaned by Sentiment Arcs
+<li>sentiment_raw: raw sentiment values for all texts in the corpus
+<li>sentiment_clean: processed sentiment time series 
+<li>graphs_cruxes: extracted key features/crux points with surrounding text
+<ol>
 
 ### Prerequisites
 
