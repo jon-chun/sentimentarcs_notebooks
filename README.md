@@ -188,6 +188,8 @@ SentimentArcs is a pipeline of Google Colab Jupyter Notebooks run in sequence as
 <li>Notebook 5: Anlysis, Visualizations and Extraction
 </ol>
 
+<b>(INSERT NOTEBOOK PIPELINE FIGURE HERE)</b>
+
 Data flows through the project subdirectory structure in a corresponding manner:
 
 <ol>
@@ -198,30 +200,36 @@ Data flows through the project subdirectory structure in a corresponding manner:
 <li>graphs_cruxes: extracted key features/crux points with surrounding text
 <ol>
 
+<b>(INSERT DATAFLOW PIPELINE FIGURE HERE)</b>
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Sentiment Arcs relies upon Goolge to provide easy to use, ubiquitious and free access to powerful GPU-backed Jupyter Notebooks. Here are the free resources you should sign-up to use Sentiment Arcs:
+
+* Google GMail Account (to have access to GDrive)
+* Activate <a href="https://workspace.google.com/u/0/marketplace/app/colaboratory/1014160490159">Colab Jupyter Notebooks</a> to your GDrive from the Goolge Workspace Market
+* Github account (if you which to report issues or comment)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Colab Jupyter Notebooks offer a number of advantages, but can be a bit unorthodox to setup. Please follow the instructions below carefully as each step depends upon the previous steps.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+1. Login to Google, goto your GDrive and create a subfolder to hold your copy of the SentimentArc project (e.g. /MyDrive/sentimentarcs/)
+
+2. Be sure you have connected the Colab Notebooks app from the Google Workplace Market.
+
+3. Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
+
+4. On the new blank Colab Notebook, to to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. Enter 'https://github.com/jon-chun/sentimentarcs_notebooks' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+
+5. Run the first code cell to 'Connect Google GDrive' and grant permission for this notebook to connect to your GDrive.
+
+6. Edit the input on the second code cell to point to the Sentiemnt Arcs project directory you defined in Step 1 and other information asked. Be sure to execute this code cell after entering this information.
+
+7. Executing the next cell should copy over the current Sentiment Arcs code from Github if it does not already exist in your GDrive.
+
+(Note: the private development repos do not work with simple passwords as of late 2021 and now <a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">require Github Token Authentication</a>)
+
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -247,10 +255,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+See the [open issues](https://github.com/jon-chun/sentimentarcs_notebooks/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -286,9 +293,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jon Chun - [@jon_chun](https://twitter.com/jon_chun) - jonchun@outlook.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/jon-chun/sentimentarcs](https://github.com/jon-chun/sentimentarcs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
