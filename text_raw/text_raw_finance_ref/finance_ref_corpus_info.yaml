@@ -1,0 +1,70 @@
+academic_semanticscholar:
+- - etherium
+  - ''
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+analyst_goldmansachs:
+- - coin
+  - ''
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+analyst_morningstar:
+- - coin
+  - ''
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+corporate_coin:
+- - regulator
+  - sec_10k
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+news_msnbc:
+- - bitcoin
+  - Squakbox
+  - Jim Cramer
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+news_nyt:
+- - coin
+  - finance
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+news_wsj:
+- - coin
+  - ''
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+social_reddit:
+- - coin
+  - r/CoinBase
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+social_stocktwits:
+- - coin
+  - ''
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0
+social_twitter:
+- - coin
+  - '#coinbase'
+  - ''
+- - '2021-12-01'
+  - '2021-12-31'
+- 0

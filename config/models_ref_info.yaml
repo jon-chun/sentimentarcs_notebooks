@@ -1,0 +1,172 @@
+AutoGluon_Text:
+- autogluon
+- tradml
+- autogluon_text
+BERT_2IMDB:
+- imdb2way
+- transformer
+- bert
+BERT_Dual_Coding:
+- hinglish
+- transformer
+- bert
+BERT_Multilingual:
+- nlptown
+- transformer
+- bert
+BERT_Yelp:
+- yelp
+- transformer
+- bert
+CNN_DNN:
+- cnn
+- dnn
+- 1315937
+Distilled_BERT:
+- huggingface
+- transformer
+- bert
+FLAML_AutoML:
+- flaml
+- tradml
+- flaml
+Fully_Connected_Network:
+- fcn
+- dnn
+- 6287671
+HyperOpt_CNN_Flair_AutoML:
+- flair
+- dnn
+- 0
+LSTM_DNN:
+- lstm
+- dnn
+- 7109089
+Logistic_Regression:
+- logreg
+- tradml
+- scikit
+Logistic_Regression_CV:
+- logreg_cv
+- tradml
+- scikit
+Multilingual_CNN_Stanza_AutoML:
+- stanza
+- dnn
+- 0
+Multinomial_Naive_Bayes:
+- multinb
+- tradml
+- scikit
+Pattern:
+- pattern
+- heuristic
+- 2918
+Random_Forest:
+- rf
+- tradml
+- scikit
+RoBERTa_Large_15DB:
+- roberta15lg
+- transformer
+- roberta
+RoBERTa_XML_8Language:
+- robertaxml8lang
+- transformer
+- roberta
+SentimentR_JockersRinker:
+- sentimentr_jockersrinker
+- heuristic
+- 11710
+SentimentR_Jockers:
+- sentimentr_jockers
+- heuristic
+- 10748
+SentimentR_Bing:
+- sentimentr_bing
+- heuristic
+- 5469
+SentimentR_NRC:
+- sentimentr_nrc
+- heuristic
+- 5469
+SentimentR_SentiWord:
+- sentimentr_sentiword
+- heuristic
+- 20093
+SentimentR_SenticNet:
+- sentimentr_senticnet
+- heuristic
+- 23626
+SentimentR_LMcD:
+- sentimentr_lmcd
+- heuristic
+- 4150
+SentimentR_SentimentR:
+- sentimentr_sentimentr
+- lexicon
+- 11710
+PySentimentR_JockersRinker:
+- pysentimentr_jockersrinker
+- lexicon
+- 11710
+PySentimentR_Huliu:
+- pysentimentr_huliu
+- lexicon
+- 5469
+PySentimentR_NRC:
+- pysentimentr_nrc
+- lexicon
+- 5469
+PySentimentR_SentiWord:
+- pysentimentr_sentiword
+- lexicon
+- 20093
+PySentimentR_SenticNet:
+- pysentimentr_senticnet
+- lexicon
+- 23626
+PySentimentR_LMcD:
+- pysentimentr_lmcd
+- lexicon
+- 4150
+PySentimentR_LMcD:
+- pysentimentr_lmcd
+- lexicon
+- 4150
+SyuzhetR_AFINN:
+- syuzhetr_afinn
+- lexicon
+- 2477
+SyuzhetR_Bing:
+- syuzhetr_bing
+- lexicon
+- 5469
+SyuzhetR_NRC:
+- syuzhetr_nrc
+- lexicon
+- 5468
+SyuzhetR_SyuzhetR:
+- syuzhetr_syuzhetr
+- lexicon
+- 10748
+T5_IMDB:
+- t5imdb50k
+- transformer
+- t5
+TextBlob:
+- textblob
+- tradml
+- textblob
+VADER:
+- vader
+- heuristic
+- 7520
+AFINN:
+- afinn
+- lexicon
+- 7520
+XGBoost:
+- xgb
+- tradml
+- xgboost
