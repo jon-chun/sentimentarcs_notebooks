@@ -1,7 +1,7 @@
 
 import global_vars
 
-def get_subdirs(Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
+def get_subdirs(SA_root,Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
     '''
     Given a two strings: Corpus, Text_type
     Set all global SUB/DIR constants
@@ -21,7 +21,8 @@ def get_subdirs(Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
         return
 
     # Define a universal syntax for a common directory structure across all notebooks
-    global_vars.SUBDIR_SENTIMENTARCS = '/gdrive/MyDrive/cdh/sentiment_arcs'
+    # global_vars.SUBDIR_SENTIMENTARCS = '/gdrive/MyDrive/cdh/sentiment_arcs'
+    global_vars.SUBDIR_SENTIMENTARCS = SA_root
     if Corpus_Type == 'new':
         global_vars.SUBDIR_TEXT_RAW = f"./text_raw/text_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
         global_vars.SUBDIR_TEXT_CLEAN = f"./text_clean/text_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
