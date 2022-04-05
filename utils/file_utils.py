@@ -87,6 +87,7 @@ def textfile2df(fullpath_str):
 
   textfile_df = pd.DataFrame()
 
+  # TODO: put try/except here to handle missing files
   with open(fullpath_str,'r') as fp:
     content_str = fp.read() # .replace('\n',' ')
 
@@ -119,6 +120,7 @@ def write_dict_dfs(adict, out_file='sentiments.json', out_dir=global_vars.SUBDIR
   # write to disk
   out_fullpath = f'{out_dir}{out_file}'
   print(f'Saving file to: {out_fullpath}')
+  # TODO: put try/catch here to handle missing files
   with open(out_fullpath, 'w') as fp:
     json.dump(
       data_dict, 
