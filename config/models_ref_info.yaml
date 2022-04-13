@@ -74,6 +74,18 @@ RoBERTa_XML_8Language:
 - robertaxml8lang
 - transformer
 - roberta
+FinBERT:
+- finbert
+- transformer
+- bert
+FinBERT_Tone:
+- finberttone
+- transformer
+- bert
+DistilRoBERTa_FinNews:
+- distilrobertafinnews
+- transformer
+- roberta
 SentimentR_JockersRinker:
 - sentimentr_jockersrinker
 - heuristic

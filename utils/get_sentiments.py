@@ -187,6 +187,8 @@ def labelscore2fl(labelscore_sentiment_ls, sa_model):
   '''
   Given the list of dict returned by RoBERTa15lg
   Return a floating point value for sentiment
+  
+  TODO: Currently sa_model unused
   '''
   sentiment_fl = -99.99
 

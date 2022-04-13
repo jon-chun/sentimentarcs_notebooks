@@ -8,11 +8,11 @@ model_titles_dt = {}
 corpus_titles_ls = []
     
 # Main Dictionary[Title_abbr] = Text_Full_Title_by_Author
-corpus_titles_dt = {}
-corpus_texts_dt = {}
+corpus_titles_dt = {}   # dict[title_key] = title_formatted_for_output
+corpus_texts_dt = {}    # dict[title_key] 
 
 # Main Dictionary[Family] = [List of Models]
-models_ensemble_dt = {}
+model_ensemble_dt = {}
 
 # Currently Running Notebook
 NotebookModels = ""
