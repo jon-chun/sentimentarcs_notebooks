@@ -36,7 +36,7 @@ def get_subdirs(Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
     SUBDIR_TEXT_RAW = f"./text_raw/text_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_TEXT_CLEAN = f"./text_clean/text_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_SENTIMENT_RAW = f"./sentiment_raw/sentiment_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
-    SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiemnt_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
+    SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiment_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_TIMESERIES_RAW = f"./timeseries_raw/timeseries_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_TIMESERIES_CLEAN = f"./timeseries_clean/timeseries_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
   elif Corpus_Type == 'ref':
@@ -73,9 +73,6 @@ def get_subdirs(Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
   print(f'   [SUBDIR_SENTIMENT_RAW]: {SUBDIR_SENTIMENT_RAW}\n')
   print(f' [SUBDIR_SENTIMENT_CLEAN]: {SUBDIR_SENTIMENT_CLEAN}\n')
   print('\nSTEP 3: Smooth Time Series and Get Crux Points')
-  print('--------------------\n')
-  print(f'  [SUBDIR_TIMESERIES_RAW]: {SUBDIR_SENTIMENT_RAW}\n')
-  print(f'[SUBDIR_TIMESERIES_CLEAN]: {SUBDIR_SENTIMENT_CLEAN}\n')
   print('\n\nOUTPUTS:')
   print('-------------------------------\n')
   print(f'           [SUBDIR_PLOTS]: {SUBDIR_GRAPHS}\n')
