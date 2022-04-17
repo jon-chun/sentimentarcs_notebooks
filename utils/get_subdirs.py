@@ -39,11 +39,11 @@ def get_subdirs(Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels):
     SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiment_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_TIMESERIES_RAW = f"./timeseries_raw/timeseries_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     SUBDIR_TIMESERIES_CLEAN = f"./timeseries_clean/timeseries_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
-  elif Corpus_Type == 'ref':
+  elif Corpus_Type == 'reference':
     SUBDIR_TEXT_RAW = f"./text_raw/text_raw_{Corpus_Genre}_{Corpus_Type}/"
     SUBDIR_TEXT_CLEAN = f"./text_clean/text_clean_{Corpus_Genre}_{Corpus_Type}/"
     SUBDIR_SENTIMENT_RAW = f"./sentiment_raw/sentiment_raw_{Corpus_Genre}_{Corpus_Type}/"
-    SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiemnt_clean_{Corpus_Genre}_{Corpus_Type}/"
+    SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiment_clean_{Corpus_Genre}_{Corpus_Type}/"
     SUBDIR_TIMESERIES_RAW = f"./timeseries_raw/timeseries_raw_{Corpus_Genre}_{Corpus_Type}/"
     SUBDIR_TIMESERIES_CLEAN = f"./timeseries_clean/timeseries_clean_{Corpus_Genre}_{Corpus_Type}/"
   else:
