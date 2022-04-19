@@ -196,7 +196,7 @@ copies (Books, 2021). There are eight works by women, two by African-Americans a
 
 
 <div id="notebooks"></div>
-<h2>Notebooks</h2>
+<h2>Notebooks and Dataflow</h2>
 
 Concretely, Sentiment Arcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical Domain Experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
 
