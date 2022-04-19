@@ -212,6 +212,8 @@ SentimentArcs is best viewed as an ordered pipeline of Google Colab Jupyter Note
 <li>Notebook 6: Analysis, Visualizations, Smoothing and Crux Extraction
 </ol>
 
+[Insert Dataflow Pipeline Diagram Here]
+
 Data flows through the project subdirectory structure in a corresponding manner:
 
 <ol>
@@ -220,9 +222,7 @@ Data flows through the project subdirectory structure in a corresponding manner:
 <li>sentiment_raw: raw sentiment values for all texts in the corpus
 <li>sentiment_clean: processed sentiment time series 
 <li>graphs_cruxes: extracted key features/crux points with surrounding text
-<ol>
-
-<b>(INSERT DATAFLOW PIPELINE FIGURE HERE)</b>
+</ol>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
