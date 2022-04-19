@@ -39,10 +39,10 @@
     <img src="images/sentiment_arcs_logo.jpg" alt="Sentiment Arcs Logo" width="256" height="256">
   </a>
 
-  <h3 align="center">Sentiment Arcs - Emotion in Texts</h3>
+  <h3 align="center">SentimentArcs - Emotion in Text</h3>
 
   <p align="center">
-    An end-to-end pipeline to detect, extract, process and anlayze sentiment analysis time series in long text(s).
+    An end-to-end pipeline to detect, extract, process and anlayze sentiment analysis over time in text.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
