@@ -123,7 +123,8 @@
   <br>
 </div> 
 
-## Welcome!
+
+<h2>Welcome!</h2>
 
 SentimentArcs is a novel methodology and software framework for analyzing emotion in long texts or sequenced collections of shorter texts using Diachronic Sentiment Analysis. It segments any corpus of long text into semantic units (e.g. sentences, tweets, financial posts), applying an ensemble of over three dozen NLP sentiment analysis models from simple lexical models to state-of-the-art Transformer models. The resulting sentiment time series can be smoothed so key features like peaks and valleys can be detected and the surrounding text around these key crux points can be extracted for analysis by domain experts.
 
@@ -132,7 +133,7 @@ For literary experts features like peaks and valleys often correspond to key cru
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div id="background"></div>
-<b>Background</b>
+<hs>Background</h2>
 
 SentimentArcs is the result of many years of our experiences researching a wide variety of AI and machine learning technique to assist human experts in the extremely challenging task of analyzing and generating natural language texts. This includes a focus on AffectiveAI approaches to analyzing diverse textual corpora including literature, social media, news, scripts, lyrics, speeches, poems, financial reports, legal documents, etc. Virtually all sequential longform text have detectable and measurable sentiment changes over time that reveals cohesive narrative elements. SentimentArcs helps domain experts to efficiently arbitrate between competing machine learning and AI NLP models to quickly and efficiently identify, analyze and discover latent narratives elements and emotional arcs in text. 
 
@@ -165,7 +166,7 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 
 
 <div id="corpora"></div>
-<h1>Reference Corpora</h1>
+<h2>Reference Corpora</h2>
 
 SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, preprocess and analyze sentiment in any corpus of long-form texts. This includes both individual long-form texts as well as corpora compiled from individually time sequenced smaller texts like compilations of specific authors, genres, or periods as well as tweets, financial reports, topical news articles, speeches, etc. Initally, SentimentArcs is focused on offering users both carefully curated reference corpora to provide a ground truth and baseline reference for specific genres of text including novels, financial texts and social media. SentimentArcs also enables users to create new corpora of customized texts for specialized sentiment analysis tasks and analysis. Currently, SentimentArcs provides reference corpora for these types of texts (with more to be added in the future):
 
@@ -180,7 +181,7 @@ copies (Books, 2021). There are eight works by women, two by African-Americans a
 
 
 <div id="features"></div>
-## Features
+<h2>Features</h2>
 
 * The largest ensemble of open NLP sentiment analysis models that we know of (currently over 3 dozen)
 * Efficient and Flexible Human-in-the-Loop to supervise, customize, tune the entire end-to-end process of sentiment analysis
@@ -195,7 +196,7 @@ copies (Books, 2021). There are eight works by women, two by African-Americans a
 
 
 <div id="notebooks"></div>
-## Notebooks
+<h2>Notebooks</h2>
 
 Concretely, Sentiment Arcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical Domain Experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
 
@@ -227,7 +228,7 @@ Data flows through the project subdirectory structure in a corresponding manner:
 
 
 <div id="installation"></div>
-<b>INSTALLATION</b>
+<h2>Installation</h2>
 
 Sentiment Arcs relies upon Goolge to provide easy to use, ubiquitious and free access to powerful GPU-backed Jupyter Notebooks. Here are the free resources you should sign-up to use Sentiment Arcs:
 
@@ -253,7 +254,7 @@ To set up SentimentArcs, please follow the instructions below carefully as each 
 
 
 <div id="contact"></div>
-## CONTACT AND CONTRIBUTE
+<h2>Contact and Contribute</h2>
 
 SentimentArcs arose from a multi-year collaboration between academia and industry and across disciplines including comparative literature, econometrics, social sciences, data analytics and ML/AI among others. The world is too interconnected and the solutions to interesting important challenging problems too complex for any one domain expert.
 
