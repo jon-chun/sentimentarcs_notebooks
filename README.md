@@ -66,24 +66,32 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#welcome">Welcome</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#background">Background</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#models">Sentiment Analysis Models</a>
+    </li>
+    <li>
+      <a href="#features">Features</a>
+    </li>
+    <li>
+      <a href="#notebooks">Notebooks</a>
+    </li>
+    <li>
+      <a href="#corpora">Reference Corpora</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#license">License</a>
+    </li>
+    <li>
+      <a href="#contact">Contact and Contribute</a>
+    </li>
   </ol>
 </details>
 
@@ -121,7 +129,10 @@ SentimentArcs is a novel methodology and software framework for analyzing emotio
 
 For literary experts features like peaks and valleys often correspond to key crux point in narrative. For financial analyst these could represent regime changes or arbitrage opportunities. For social media analysts these swings in could represent shifting public opinion on key topics, public figures or even terrorist cell activities. SentimentArcs is build around a a large ensemble of sentiment analysis models that surface interesting emotional arcs that domain experts can use to efficiently detect subtle and complex ground truths hidden within any sequenced body of text. 
 
-## BACKGROUND
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<div id="background"></div>
+## Background
 
 SentimentArcs is the result of many years of our experiences researching a wide variety of AI and machine learning technique to assist human experts in the extremely challenging task of analyzing and generating natural language texts. This includes a focus on AffectiveAI approaches to analyzing diverse textual corpora including literature, social media, news, scripts, lyrics, speeches, poems, financial reports, legal documents, etc. Virtually all sequential longform text have detectable and measurable sentiment changes over time that reveals cohesive narrative elements. SentimentArcs helps domain experts to efficiently arbitrate between competing machine learning and AI NLP models to quickly and efficiently identify, analyze and discover latent narratives elements and emotional arcs in text. 
 
@@ -131,20 +142,11 @@ SentimentArcs is the novel software framework underlying  <a href="https://www.c
 SOTA Transformer and DNN short text sentiment classifiers report over 97% accuracy on narrow domains like IMDB movie reviews. Real-world performance is significantly lower because traditional models overfit benchmarks and generalize poorly to different or more open domain texts. This paper introduces SentimentArcs, a new self-supervised time series sentiment analysis methodology that addresses the two main limitations of traditional supervised sentiment analysis: limited labeled training datasets and poor generalization. A large ensemble of diverse models provides a synthetic ground truth for self-supervised learning. Novel metrics jointly optimize an exhaustive search across every possible corpus:model combination. The joint optimization over both the corpus and model solves the generalization problem. Simple visualizations exploit the temporal structure in narratives so domain experts can quickly spot trends, identify key features, and note anomalies over hundreds of arcs and millions of data points. To our knowledge, this is the first self-supervised method for time series sentiment analysis and the largest survey directly comparing real-world model performance on long-form narratives.
 </blockquote>
 
-## REFERENCE CORPORA
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, preprocess and analyze sentiment in any corpus of long-form texts. This includes both individual long-form texts as well as corpora compiled from individually time sequenced smaller texts like compilations of specific authors, genres, or periods as well as tweets, financial reports, topical news articles, speeches, etc. Initally, SentimentArcs is focused on offering users both carefully curated reference corpora to provide a ground truth and baseline reference for specific genres of text including novels, financial texts and social media. SentimentArcs also enables users to create new corpora of customized texts for specialized sentiment analysis tasks and analysis. Currently, SentimentArcs provides reference corpora for these types of texts (with more to be added in the future):
 
-* Novels
-* Financial Texts
-* Social Media
-
-For exmample, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author, Ian McEwan. Early 20th century modernists are emphasized with authors like Marcel Proust and Virginia Woolf. In sum, the corpora includes (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million
-copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
-
-## SENTIMENT ANALYSIS MODELS
-
-Concretely, Sentiment Arcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical Domain Experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
+<div id="models"></div>
+## Sentiment Analysis Models
 
 * Text preprocessing (cleaning, advanced sentence segmentation, custom stopword sets, etc)
 * An ensemble of over 3 dozen Sentiment Analysis Model including a diverse representation of major families (including the most popular sentiment analysis libraries and models from both R and Python as well as some AutoML techniques):
@@ -159,39 +161,45 @@ Concretely, Sentiment Arcs consists of a series of software modules embodied as 
 </ul>
 </blockquote>
 
-## FEATURES
+<p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<div id="corpora"></div>
+## Reference Corpora
+
+SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, preprocess and analyze sentiment in any corpus of long-form texts. This includes both individual long-form texts as well as corpora compiled from individually time sequenced smaller texts like compilations of specific authors, genres, or periods as well as tweets, financial reports, topical news articles, speeches, etc. Initally, SentimentArcs is focused on offering users both carefully curated reference corpora to provide a ground truth and baseline reference for specific genres of text including novels, financial texts and social media. SentimentArcs also enables users to create new corpora of customized texts for specialized sentiment analysis tasks and analysis. Currently, SentimentArcs provides reference corpora for these types of texts (with more to be added in the future):
+
+* Novels
+* Financial Texts
+* Social Media
+
+For exmample, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author, Ian McEwan. Early 20th century modernists are emphasized with authors like Marcel Proust and Virginia Woolf. In sum, the corpora includes (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million
+copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<div id="features"></div>
+## Features
+
+* The largest ensemble of open NLP sentiment analysis models that we know of (currently over 3 dozen)
+* Efficient and Flexible Human-in-the-Loop to supervise, customize, tune the entire end-to-end process of sentiment analysis
+* Flexible statistical, visualzation and text cutomizations so Domain Experts can quickly identify, extract and analyze key features of time series.
+* Access to domain specific baselines (Novels, Finance and Social Media) based upon carefully curated corpora
 * Novel Time Series Synthesis and Data Augmentation for NLP Sentiment Analysis Time Series
 * Novel Peak Detection Algorithms customized for NLP Sentiment Analysis Time Series
-* Efficient and Flexible Human-in-the-Loop to customize and tune the entire end-to-end process
-* Flexible statistical, visualzation and text cutomizations so Domain Experts can quickly identify, extract and analyze key features of time series.
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!---
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* Easy access via free Google Colab Jupyter notebooks with access to powerful GPU accelators
+* Minimal setup, training and support costs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
---->
 
 
-<!-- GETTING STARTED -->
-## NOTEBOOKS
+<div id="notebooks"></div>
+## Notebooks
 
-SentimentArcs is a pipeline of Google Colab Jupyter Notebooks run in sequence as follows:
+Concretely, Sentiment Arcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical Domain Experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
+
+SentimentArcs is best viewed as an ordered pipeline of Google Colab Jupyter Notebooks that are run in sequence as follows:
 
 <ol>
 <li>Notebook 0: Copy SentimentArcs Github repo to your Google GDrive (run once at setup or to reset)
@@ -202,8 +210,6 @@ SentimentArcs is a pipeline of Google Colab Jupyter Notebooks run in sequence as
 <li>Notebook 5: Sentiment Analysis Models: Transformers(11)
 <li>Notebook 6: Analysis, Visualizations, Smoothing and Crux Extraction
 </ol>
-
-<b>(INSERT NOTEBOOK PIPELINE FIGURE HERE)</b>
 
 Data flows through the project subdirectory structure in a corresponding manner:
 
@@ -217,7 +223,11 @@ Data flows through the project subdirectory structure in a corresponding manner:
 
 <b>(INSERT DATAFLOW PIPELINE FIGURE HERE)</b>
 
-### Prerequisites
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<div id="installation"></div>
+## INSTALLATION
 
 Sentiment Arcs relies upon Goolge to provide easy to use, ubiquitious and free access to powerful GPU-backed Jupyter Notebooks. Here are the free resources you should sign-up to use Sentiment Arcs:
 
@@ -225,23 +235,39 @@ Sentiment Arcs relies upon Goolge to provide easy to use, ubiquitious and free a
 * Activate <a href="https://workspace.google.com/u/0/marketplace/app/colaboratory/1014160490159">Colab Jupyter Notebooks</a> to your GDrive from the Goolge Workspace Market
 * Github account (if you which to report issues or comment)
 
-### Installation
+Colab Jupyter Notebooks offer a number of advantages including easy access with via an intuitive web brower, low/no support costs and powerful GPU backed VM for free.  However, it comes with some limitations to be aware of including required sequential execution, latencies and limited interface design. 
 
-Colab Jupyter Notebooks offer a number of advantages, but can be a bit unorthodox to setup. Please follow the instructions below carefully as each step depends upon the previous steps.
+To set up SentimentArcs, please follow the instructions below carefully as each step depends upon the previous steps.
 
-1. Login to Google, goto your GDrive and create a subfolder to hold your copy of the SentimentArc project (e.g. /MyDrive/sentimentarcs/)
+<ol>
+<li>Login to Google, goto your GDrive and create a subfolder to hold your copy of the SentimentArc project (e.g. /MyDrive/sentimentarcs/)
+<li>Be sure you have connected the Colab Notebooks app from the Google Workplace Market.
+<li>Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
+<li>On the new blank Colab Notebook, to to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. Enter 'https://github.com/jon-chun/sentimentarcs_notebooks' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+<li>Run the first code cell to 'Connect Google GDrive' and grant permission for this notebook to connect to your GDrive.
+<li>Edit the input on the second code cell to point to the Sentiemnt Arcs project directory you defined in Step 1 and other information asked. Be sure to execute this code cell after entering this information.
+<li>Executing the next cell should copy over the current Sentiment Arcs code from Github if it does not already exist in your GDrive.
+</ol>
 
-2. Be sure you have connected the Colab Notebooks app from the Google Workplace Market.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-3. Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
 
-4. On the new blank Colab Notebook, to to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. Enter 'https://github.com/jon-chun/sentimentarcs_notebooks' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+<div id="contact"></div>
+## CONTACT AND CONTRIBUTE
 
-5. Run the first code cell to 'Connect Google GDrive' and grant permission for this notebook to connect to your GDrive.
+SentimentArcs arose from a multi-year collaboration between academia and industry and across disciplines including comparative literature, econometrics, social sciences, data analytics and ML/AI among others. The world is too interconnected and the solutions to interesting important challenging problems too complex for any one domain expert.
 
-6. Edit the input on the second code cell to point to the Sentiemnt Arcs project directory you defined in Step 1 and other information asked. Be sure to execute this code cell after entering this information.
+As a result, we welcome collaboration and contributions that can help grow SentimentArcs into the premier NLP tool for sentiment analysis which includes both experts from both technical and non-technical domains. Here are just a few ways you could make a contribution to SentimentArcs, the broader Digital Humanities, and NLPcommunity:
 
-7. Executing the next cell should copy over the current Sentiment Arcs code from Github if it does not already exist in your GDrive.
+<ol>
+<li>Use SentimentArcs to analyze existing reference corpora to identify strengths/limitations of various models, optimal hyperparameters, interpretaions, etc
+<li>Contribute new texts (e.g. novels, financial reports, social media compilations)
+<li>Compile, expand upon the reference corpora for Finance, Social Media, or other text genres
+<li>Suggest or contribute code to add new sentiment analysis models 
+<li>Help with documentation, training and interpretation
+<li>Bug identification/fixes
+<li>Suggestions or code for new features and improved performance
+</ol>
 
-(Note: the private development repos do not work with simple passwords as of late 2021 and now <a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">require Github Token Authentication</a>)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
