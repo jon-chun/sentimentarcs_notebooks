@@ -71,14 +71,14 @@
     <li>
       <a href="#background">Background</a>
     </li>
+      <li>
+      <a href="#features">Features</a>
+    </li>
     <li>
       <a href="#models">Sentiment Analysis Models</a>
     </li>
     <li>
-      <a href="#features">Features</a>
-    </li>
-    <li>
-      <a href="#notebooks">Notebooks</a>
+      <a href="#notebooks">Notebooks and Dataflow</a>
     </li>
     <li>
       <a href="#corpora">Reference Corpora</a>
@@ -146,6 +146,21 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<div id="features"></div>
+<h2>Features</h2>
+
+* The largest ensemble of open NLP sentiment analysis models that we know of (currently over 3 dozen)
+* Efficient and Flexible Human-in-the-Loop to supervise, customize, tune the entire end-to-end process of sentiment analysis
+* Flexible statistical, visualzation and text cutomizations so Domain Experts can quickly identify, extract and analyze key features of time series.
+* Access to domain specific baselines (Novels, Finance and Social Media) based upon carefully curated corpora
+* Novel Time Series Synthesis and Data Augmentation for NLP Sentiment Analysis Time Series
+* Novel Peak Detection Algorithms customized for NLP Sentiment Analysis Time Series
+* Easy access via free Google Colab Jupyter notebooks with access to powerful GPU accelators
+* Minimal setup, training and support costs
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 <div id="models"></div>
 <h2>Sentiment Analysis Models</h2>
 
@@ -161,36 +176,6 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 <li> State of the Art Transformer Models
 </ul>
 </blockquote>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<div id="corpora"></div>
-<h2>Reference Corpora</h2>
-
-SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, preprocess and analyze sentiment in any corpus of long-form texts. This includes both individual long-form texts as well as corpora compiled from individually time sequenced smaller texts like compilations of specific authors, genres, or periods as well as tweets, financial reports, topical news articles, speeches, etc. Initally, SentimentArcs is focused on offering users both carefully curated reference corpora to provide a ground truth and baseline reference for specific genres of text including novels, financial texts and social media. SentimentArcs also enables users to create new corpora of customized texts for specialized sentiment analysis tasks and analysis. Currently, SentimentArcs provides reference corpora for these types of texts (with more to be added in the future):
-
-* Novels
-* Financial Texts
-* Social Media
-
-For exmample, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author, Ian McEwan. Early 20th century modernists are emphasized with authors like Marcel Proust and Virginia Woolf. In sum, the corpora includes (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million
-copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<div id="features"></div>
-<h2>Features</h2>
-
-* The largest ensemble of open NLP sentiment analysis models that we know of (currently over 3 dozen)
-* Efficient and Flexible Human-in-the-Loop to supervise, customize, tune the entire end-to-end process of sentiment analysis
-* Flexible statistical, visualzation and text cutomizations so Domain Experts can quickly identify, extract and analyze key features of time series.
-* Access to domain specific baselines (Novels, Finance and Social Media) based upon carefully curated corpora
-* Novel Time Series Synthesis and Data Augmentation for NLP Sentiment Analysis Time Series
-* Novel Peak Detection Algorithms customized for NLP Sentiment Analysis Time Series
-* Easy access via free Google Colab Jupyter notebooks with access to powerful GPU accelators
-* Minimal setup, training and support costs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -223,6 +208,21 @@ Data flows through the project subdirectory structure in a corresponding manner:
 <li>sentiment_clean: processed sentiment time series 
 <li>graphs_cruxes: extracted key features/crux points with surrounding text
 </ol>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<div id="corpora"></div>
+<h2>Reference Corpora</h2>
+
+SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, preprocess and analyze sentiment in any corpus of long-form texts. This includes both individual long-form texts as well as corpora compiled from individually time sequenced smaller texts like compilations of specific authors, genres, or periods as well as tweets, financial reports, topical news articles, speeches, etc. Initally, SentimentArcs is focused on offering users both carefully curated reference corpora to provide a ground truth and baseline reference for specific genres of text including novels, financial texts and social media. SentimentArcs also enables users to create new corpora of customized texts for specialized sentiment analysis tasks and analysis. Currently, SentimentArcs provides reference corpora for these types of texts (with more to be added in the future):
+
+* Novels
+* Financial Texts
+* Social Media
+
+For exmample, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author, Ian McEwan. Early 20th century modernists are emphasized with authors like Marcel Proust and Virginia Woolf. In sum, the corpora includes (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million
+copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
