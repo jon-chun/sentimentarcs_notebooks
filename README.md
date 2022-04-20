@@ -95,7 +95,7 @@
 
 
 <div align="center">
-    <kbd>!["SentimentArcs Ensemble of Machines Like Me by Ian McEwan"]("images/plot_sentimentarcs_sma_ensemble.png")</kbd>
+    <img src="images/plot_sentimentarcs_sma_ensemble.png" alt="SentimentArcs Ensemble of Machines Like Me by Ian McEwan"> 
     <!--- width="2048" height="1018"> --->
   <b>Fig 1:</b> SentimentArcs Ensembles over three dozen Sentiment Analysis Models from simple XAI Lexicons to State-of-the-Art Transformers (including Models specialized for Financial and Social Texts)
   <br>
