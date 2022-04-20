@@ -103,15 +103,18 @@
     <img src="images/plot_sentimentarcs_sma_ensemble.png" alt="SentimentArcs Ensemble of Machines Like Me by Ian McEwan"> 
     <!--- width="2048" height="1018"> --->
   </a>
+  Fig 1. SentimentArcs Ensembles over three dozen Sentiment Analysis Models from simple, explainable Lexicons to State-of-the-Art Transformers
   <br>
   <a href="https://github.com/jon-chun/sentiment_arcs">
     <img src="images/plot_sentimentarcs_peaks_valleys_markers.png" alt="SentimentArcs Peak Detection for Machines Like Me by Ian McEwan"> 
     <!---  width="2048" height="1018"> --->
+    Fig 2. Exploratory Data Analysis by Domain Experts tweeking Models, Hyperparameters and Time Series Processing
   </a>
   <br>
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines LIke Me by Ian McEwan"> 
+    <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines Like Me by Ian McEwan"> 
     <!---  width="2048" height="1018"> --->
+    Fig 3. Peak/Valley detection and related text extaction around Crux Points
   </a>
   <br>
 </div> 
