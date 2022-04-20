@@ -115,6 +115,7 @@
 </div> 
 
 
+<div id="welcome"></div>
 <h2>Welcome!</h2>
 
 SentimentArcs is a novel methodology and software framework for analyzing emotion in long texts or sequenced collections of shorter texts using Diachronic Sentiment Analysis. It segments any corpus of long text into semantic units (e.g. sentences, tweets, financial posts), applying an ensemble of over three dozen NLP sentiment analysis models from simple lexical models to state-of-the-art Transformer models. The resulting sentiment time series can be smoothed so key features like peaks and valleys can be detected and the surrounding text around these key crux points can be extracted for analysis by domain experts.
@@ -124,7 +125,7 @@ For literary experts features like peaks and valleys often correspond to key cru
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div id="background"></div>
-<hs>Background</h2>
+<h2>Background</h2>
 
 SentimentArcs is the result of many years of our experiences researching a wide variety of AI and machine learning technique to assist human experts in the extremely challenging task of analyzing and generating natural language texts. This includes a focus on AffectiveAI approaches to analyzing diverse textual corpora including literature, social media, news, scripts, lyrics, speeches, poems, financial reports, legal documents, etc. Virtually all sequential longform text have detectable and measurable sentiment changes over time that reveals cohesive narrative elements. SentimentArcs helps domain experts to efficiently arbitrate between competing machine learning and AI NLP models to quickly and efficiently identify, analyze and discover latent narratives elements and emotional arcs in text. 
 
