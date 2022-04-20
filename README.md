@@ -62,38 +62,38 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
+
+<b>Table of Contents</b>
+<ol>
+  <li>
+    <a href="#welcome">Welcome</a>
+  </li>
+  <li>
+    <a href="#background">Background</a>
+  </li>
     <li>
-      <a href="#welcome">Welcome</a>
-    </li>
-    <li>
-      <a href="#background">Background</a>
-    </li>
-      <li>
-      <a href="#features">Features</a>
-    </li>
-    <li>
-      <a href="#models">Sentiment Analysis Models</a>
-    </li>
-    <li>
-      <a href="#notebooks">Notebooks and Dataflow</a>
-    </li>
-    <li>
-      <a href="#corpora">Reference Corpora</a>
-    </li>
-    <li>
-      <a href="#installation">Installation</a>
-    </li>
-    <li>
-      <a href="#license">License</a>
-    </li>
-    <li>
-      <a href="#contact">Contact and Contribute</a>
-    </li>
-  </ol>
-</details>
+    <a href="#features">Features</a>
+  </li>
+  <li>
+    <a href="#models">Sentiment Analysis Models</a>
+  </li>
+  <li>
+    <a href="#notebooks">Notebooks and Dataflow</a>
+  </li>
+  <li>
+    <a href="#corpora">Reference Corpora</a>
+  </li>
+  <li>
+    <a href="#installation">Installation</a>
+  </li>
+  <li>
+    <a href="#license">License</a>
+  </li>
+  <li>
+    <a href="#contact">Contact and Contribute</a>
+  </li>
+</ol>
+
 
 
 
