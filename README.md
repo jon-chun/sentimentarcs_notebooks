@@ -42,7 +42,7 @@
   <h3 align="center">SentimentArcs - Emotion in Text</h3>
 
   <p align="center">
-    An end-to-end pipeline to detect, extract, process and anlayze sentiment analysis over time in text.
+    An end-to-end pipeline to detect, extract, process and anlayze emotion over time in text.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -107,17 +107,17 @@
 
 <div align="center">
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/graph_sentiment_arcs_ensemble_vwoolf_ttl.png" alt="Sentiment Arcs Ensemble of To The Lighthouse by Virginia Woolf"> 
+    <img src="images/graph_sentiment_arcs_ensemble_vwoolf_ttl.png" alt="SentimentArcs Ensemble of To The Lighthouse by Virginia Woolf"> 
     <!--- width="2048" height="1018"> --->
   </a>
   <br>
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/graph_sentiment_arcs_smoothed_vwoolf_ttl.png" alt="Sentiment Arcs SMA Smoothed Peaks To The Lighthouse by Virginia Woolf"> 
+    <img src="images/plot_sentimentarcs_peaks_valleys_markers.png" alt="SentimentArcs Peak Detection for Machines Like Me by Ian McEwan"> 
     <!---  width="2048" height="1018"> --->
   </a>
   <br>
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/graph_sentiment_arc_lowess_mproust_guermantesway.png" alt="Sentiment Arcs LOWESS Smoothed Peaks Guermantes Way by Marcel Proust"> 
+    <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines LIke Me by Ian McEwan"> 
     <!---  width="2048" height="1018"> --->
   </a>
   <br>
