@@ -113,7 +113,7 @@
   <br>
   <br>
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines Like Me by Ian McEwan" border="3"> 
+    <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines Like Me by Ian McEwan" style="border:5px solid black"> 
     <!---  width="2048" height="1018"> --->
   </a>
   <b>Fig 3:</b> Automatic Peak/Valley detection and Text Extraction around Crux Points
