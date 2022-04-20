@@ -107,7 +107,7 @@
 
 <div align="center">
   <a href="https://github.com/jon-chun/sentiment_arcs">
-    <img src="images/graph_sentiment_arcs_ensemble_vwoolf_ttl.png" alt="SentimentArcs Ensemble of To The Lighthouse by Virginia Woolf"> 
+    <img src="images/plot_sentimentarcs_sma_ensemble.png" alt="SentimentArcs Ensemble of Machines Like Me by Ian McEwan"> 
     <!--- width="2048" height="1018"> --->
   </a>
   <br>
