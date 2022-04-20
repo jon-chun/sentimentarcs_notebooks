@@ -147,7 +147,7 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 
 * The largest ensemble of open NLP sentiment analysis models that we know of (currently over 3 dozen)
 * Efficient and Flexible Human-in-the-Loop to supervise, customize, tune the entire end-to-end process of sentiment analysis
-* Flexible statistical, visualzation and text cutomizations so Domain Experts can quickly identify, extract and analyze key features of time series.
+* Flexible statistical, visualzation and text cutomizations so Domain Experts can easily identify, extract and analyze key features and surrounding text from sentiment time series.
 * Access to domain specific baselines (Novels, Finance and Social Media) based upon carefully curated corpora
 * Novel Time Series Synthesis and Data Augmentation for NLP Sentiment Analysis Time Series
 * Novel Peak Detection Algorithms customized for NLP Sentiment Analysis Time Series
@@ -167,8 +167,9 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 <ul>
 <li> Lexical
 <li> Heuristics
+<li> Linguistic
 <li> GOFAI Machine Learning
-<li> Deep Neural Networks
+<li> Deep Neural Networks & AutoML
 <li> State of the Art Transformer Models
 </ul>
 </blockquote>
@@ -193,7 +194,8 @@ SentimentArcs is best viewed as an ordered pipeline of Google Colab Jupyter Note
 <li>Notebook 6: Analysis, Visualizations, Smoothing and Crux Extraction
 </ol>
 
-[Insert Dataflow Pipeline Diagram Here]
+<img src="images/fig_block_sentimentarcs_handdrawn_sm.jp" alt="SentimentArcs Notebook DataFlow">
+g
 
 Data flows through the project subdirectory structure in a corresponding manner:
 
