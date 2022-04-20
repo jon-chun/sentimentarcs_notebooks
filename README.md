@@ -35,7 +35,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/sentiment_arcs_logo.jpg" alt="Sentiment Arcs Logo" width="256" height="256">
+    <img src="images/sentimentarcs_logo.jpg" alt="Sentiment Arcs Logo" width="256" height="256">
   <h3 align="center">SentimentArcs - Emotion in Text</h3>
 
   <p align="center">
