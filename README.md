@@ -35,10 +35,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jon-chun/sentiment_arcs">
     <img src="images/sentiment_arcs_logo.jpg" alt="Sentiment Arcs Logo" width="256" height="256">
-  </a>
-
   <h3 align="center">SentimentArcs - Emotion in Text</h3>
 
   <p align="center">
@@ -98,26 +95,20 @@
 
 
 <div align="center">
-  <a href="https://github.com/jon-chun/sentiment_arcs">
     <img src="images/plot_sentimentarcs_sma_ensemble.png" alt="SentimentArcs Ensemble of Machines Like Me by Ian McEwan"> 
     <!--- width="2048" height="1018"> --->
-  </a>
   <b>Fig 1:</b> SentimentArcs Ensembles over three dozen Sentiment Analysis Models from simple XAI Lexicons to State-of-the-Art Transformers (including Models specialized for Financial and Social Texts)
   <br>
   <br>
-  <a href="https://github.com/jon-chun/sentiment_arcs">
     <img src="images/plot_sentimentarcs_peaks_valleys_markers.png" alt="SentimentArcs Peak Detection for Machines Like Me by Ian McEwan"> 
     <!---  width="2048" height="1018"> --->
-  </a>
   <b>Fig 2:</b> Efficient Exploratory Data Analysis (EDA) by Domain Expert to customize Models, Hyperparameters and Time Series Processing
   <br>
   <br>
-  <a href="https://github.com/jon-chun/sentiment_arcs">
     <kbd>
     <img src="images/screen_sentimentarcs_crux_text.jpg" alt="SentimentArcs Crux Extraction for Machines Like Me by Ian McEwan" style="border:5px solid black"> 
     </kbd>
     <!---  width="2048" height="1018"> --->
-  </a>
   <b>Fig 3:</b> Automatic Peak/Valley detection and Text Extraction around Crux Points
   <br>
   <br>
