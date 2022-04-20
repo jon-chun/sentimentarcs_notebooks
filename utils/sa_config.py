@@ -30,6 +30,7 @@ def get_subdirs(SA_root,Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels
         global_vars.SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiment_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
         global_vars.SUBDIR_TIMESERIES_RAW = f"./timeseries_raw/timeseries_raw_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
         global_vars.SUBDIR_TIMESERIES_CLEAN = f"./timeseries_clean/timeseries_clean_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
+        global_vars.SUBDIR_GRAPHS = f"./graphs/graphs_{Corpus_Genre}_{Corpus_Type}_corpus{Corpus_Number}/"
     elif Corpus_Type == 'reference':
         global_vars.SUBDIR_TEXT_RAW = f"./text_raw/text_raw_{Corpus_Genre}_{Corpus_Type}/"
         global_vars.SUBDIR_TEXT_CLEAN = f"./text_clean/text_clean_{Corpus_Genre}_{Corpus_Type}/"
@@ -37,10 +38,11 @@ def get_subdirs(SA_root,Corpus_Genre, Corpus_Type, Corpus_Number, NotebookModels
         global_vars.SUBDIR_SENTIMENT_CLEAN = f"./sentiment_clean/sentiment_clean_{Corpus_Genre}_{Corpus_Type}/"
         global_vars.SUBDIR_TIMESERIES_RAW = f"./timeseries_raw/timeseries_raw_{Corpus_Genre}_{Corpus_Type}/"
         global_vars.SUBDIR_TIMESERIES_CLEAN = f"./timeseries_clean/timeseries_clean_{Corpus_Genre}_{Corpus_Type}/"
+        global_vars.SUBDIR_GRAPHS = f"./graphs/graphs_{Corpus_Genre}_{Corpus_Type}/"
     else:
         print(f'ERROR: Illegal value for Corpus_Type: {Corpus_Type}')
 
-    global_vars.SUBDIR_GRAPHS = f"./graphs/graphs_{Corpus_Genre}/"
+    # global_vars.SUBDIR_GRAPHS = f"./graphs/graphs_{Corpus_Genre}/"
     global_vars.SUBDIR_DATA = f"./data/data_{Corpus_Genre}"
     global_vars.SUBDIR_UTILS = f"./utils/"
 
