@@ -96,14 +96,7 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
-
-<!---
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
---->
+<h1>Screenshots</h1>
 
 <div align="center">
   <a href="https://github.com/jon-chun/sentiment_arcs">
