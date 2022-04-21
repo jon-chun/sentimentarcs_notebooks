@@ -194,7 +194,7 @@ SentimentArcs is best viewed as an ordered pipeline of Google Colab Jupyter Note
 <li>Notebook 6: Analysis, Visualizations, Smoothing and Crux Extraction
 </ol>
 
-<img src="images/fig_block_sentimentarcs_handdrawn_sm.jpg" alt="SentimentArcs Notebook DataFlow">
+<img src="images/fig_sentimentarcs_blocks.png" alt="SentimentArcs Notebook DataFlow">
 
 Data flows through the project subdirectory structure in a corresponding manner:
 
