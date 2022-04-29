@@ -253,9 +253,11 @@ To set up SentimentArcs, please follow the instructions below carefully as each 
 
 
 <div id="Examples"></div>
-<h2>examples</h2>
+<h2>Examples</h2>
 
-At our DHColab we have used Diachronic Sentiment Analysis for years analyzing all form of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc.  Here are serveral examples from our lab demonstrating the use of sentiment analysis to find emotions in text over time:
+At DHColab we use Sentiment Analysis to analyze and extract features from all kinds of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc. SentimentArcs is a formalization of many of the best practices we developed over the years.  Each type of text (e.g. Novels, Social Media, News, Financial Texts, etc) shares common anlysis techniques as well as requires customized methodologies tailored to each genre. For example, for novels we are seeking to surface latent features of narrative like plot, financial texts often reveal shifts in investor sentiment, and peaks/valleys in social media sentiment can reflect shifts in public opinion on current events, political candidates or new products/services.
+
+In addition to Dr. Elkins Cambridge Elements text referenced above, here are serveral examples from our DHColab that demonstrate the use of sentiment analysis to analyze various types of text.
 
 Novels:
 
