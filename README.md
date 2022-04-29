@@ -252,34 +252,34 @@ To set up SentimentArcs, please follow the instructions below carefully as each 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<div id="Examples"></div>
+<div id="examples"></div>
 <h2>Examples</h2>
 
 At DHColab we use Sentiment Analysis to analyze and extract features from all kinds of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc. SentimentArcs is a formalization of many of the best practices we developed over the years.  Each type of text (e.g. Novels, Social Media, News, Financial Texts, etc) shares common anlysis techniques as well as requires customized methodologies tailored to each genre. For example, for novels we are seeking to surface latent features of narrative like plot, financial texts often reveal shifts in investor sentiment, and peaks/valleys in social media sentiment can reflect shifts in public opinion on current events, political candidates or new products/services.
 
 In addition to Dr. Elkins Cambridge Elements text referenced above, here are serveral examples from our DHColab that demonstrate the use of sentiment analysis to analyze various types of text.
 
-Novels:
+<b>Novels:</b>
 
 <ol>
     <li><a href="https://digital.kenyon.edu/dh_iphs_ss/1/">Adapted Arcs: Sentiment Analysis and The Sorcerer's Stone</a> by Erin Shaheen</li>
     <li><a href="https://digital.kenyon.edu/dh_iphs_ai/12/">Doubles and Reflections: Sentiment Analysis and Vladimir Nabokov’s Pale Fire</a> by Catherine Perloff</li>
 </ol>
 
-Financial Texts:
+<b>Financial Texts:</b>
 
 <ol>
     <li><a href="https://digital.kenyon.edu/dh_iphs_ai/8/">Computational Approaches to Predicting Cryptocurrency Prices</a> by Chris Pelletier</li>
 </ol>
 
-Social Media:
+<b>Social Media:</b>
 
 <ol>
     <li><a href="https://digital.kenyon.edu/dh_iphs_ss/7/">Analyzing Covid-19 Through a Sentiment Analysis of Twitter Data</a> by Cameron Catana</li>
 </ol>
 
-<div id="License"></div>
-<h2>license</h2>
+<div id="license"></div>
+<h2>License</h2>
 
 <a href="https://github.com/jon-chun/sentimentarcs_notebooks/blob/main/LICENSE">MIT License</a>
 
