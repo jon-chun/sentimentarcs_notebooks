@@ -84,6 +84,9 @@
     <a href="#installation">Installation</a>
   </li>
   <li>
+    <a href="#examples">Examples</a>
+  </li>
+  <li>
     <a href="#license">License</a>
   </li>
   <li>
@@ -248,6 +251,35 @@ To set up SentimentArcs, please follow the instructions below carefully as each 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<div id="Examples"></div>
+<h2>examples</h2>
+
+At our DHColab we have used Diachronic Sentiment Analysis for years analyzing all form of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc.  Here are serveral examples from our lab demonstrating the use of sentiment analysis to find emotions in text over time:
+
+Novels:
+
+<ol>
+    <li><a href="https://digital.kenyon.edu/dh_iphs_ss/1/">Adapted Arcs: Sentiment Analysis and The Sorcerer's Stone</a> by Erin Shaheen</li>
+    <li><a href="https://digital.kenyon.edu/dh_iphs_ai/12/">Doubles and Reflections: Sentiment Analysis and Vladimir Nabokov’s Pale Fire</a> by Catherine Perloff</li>
+</ol>
+
+Financial Texts:
+
+<ol>
+    <li><a href="https://digital.kenyon.edu/dh_iphs_ai/8/">Computational Approaches to Predicting Cryptocurrency Prices</a> by Chris Pelletier</li>
+</ol>
+
+Social Media:
+
+<ol>
+    <li><a href="https://digital.kenyon.edu/dh_iphs_ss/7/">Analyzing Covid-19 Through a Sentiment Analysis of Twitter Data</a> by Cameron Catana</li>
+</ol>
+
+<div id="License"></div>
+<h2>license</h2>
+
+<a href="https://github.com/jon-chun/sentimentarcs_notebooks/blob/main/LICENSE">MIT License</a>
 
 <div id="contact"></div>
 <h2>Contact and Contribute</h2>
