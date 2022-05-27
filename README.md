@@ -46,7 +46,7 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Quick Video Overview</a>
     ·
-    <a href="https://www.cambridge.org/core/what-we-publish/elements/cambridge-elements-series">Cambridge University Press Elements Textbook by Katherine Elkins</a>
+    <a href="https://www.cambridge.org/core/what-we-publish/elements/cambridge-elements-series">Cambridge University Press Elements by Katherine Elkins</a>
     ·
     <a href="https://github.com/jon-chun/sentiment_arcs/issues">Report a Bug or Request a Feature</a>
     ·
