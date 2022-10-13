@@ -221,7 +221,7 @@ SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, prepro
 * Financial Texts
 * Social Media
 
-For example, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well-recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author Ian McEwan. Early 20th century modernists are emphasized by authors like Marcel Proust and Virginia Woolf. In sum, the corpora include (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
+For example, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well-recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author Ian McEwan. Early 20th-century modernists are emphasized by authors like Marcel Proust and Virginia Woolf. In sum, the corpora include (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -229,21 +229,32 @@ For example, the reference corpus for novels consists of 25 narratives selected 
 <div id="installation"></div>
 <h2>Installation</h2>
 
-SentimentArcs relies upon Google to provide easy-to-use, ubiquitous and free access to powerful GPU-backed Jupyter Notebooks. Here are the free resources you should sign-up to use SentimentArcs:
+SentimentArcs relies upon Google Colab to provide easy-to-use, ubiquitous and free access to powerful GPU-backed Jupyter Notebooks. Here are the free resources you should sign-up to use SentimentArcs:
 
 * Google GMail Account (to have access to GDrive)
 * Activate <a href="https://workspace.google.com/u/0/marketplace/app/colaboratory/1014160490159">Colab Jupyter Notebooks</a> to your GDrive from the Google Workspace Market
-* Github account (to report issues or comment)
+* Github account (to report issues or comments)
 
 Colab Jupyter Notebooks offer several significant advantages including easy access via an intuitive web browser, low/no support costs and a powerful GPU backend VM for free.  However, it comes with some limitations to be aware of including required sequential execution, latencies and limited interface design. 
 
-To set up SentimentArcs, please follow the instructions below carefully as each step depends upon the previous steps.
+To set up SentimentArcs, please carefully follow the instructions below as each step depends upon the previous steps.
 
+### **Setup**: Run Once
 <ol>
-<li>Login to Google, go to your GDrive and create a subfolder to hold your copy of the SentimentArc project (e.g. /MyDrive/sentimentarcs_notebooks/)
-<li>Be sure you have connected the Colab Notebooks app from the Google Workplace Market.
-<li>Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
-<li>On the new blank Colab Notebook, to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. Enter 'https://github.com/jon-chun/sentimentarcs_notebooks' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+<li><b>Authenticate to gDrive:</b> Login to Google, go to your GDrive and create a subfolder to hold your copy of the SentimentArc project (e.g. /MyDrive/sentimentarcs_notebooks/)
+<li><b>Enable Colab Jupyter Notebooks:</b> Be sure you have connected the Colab Notebooks app from the Google Workplace Market.
+<li><b>Create SentimentArcs_Notebooks directory structure:</b> 
+<ol><li>Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
+<li>On the new blank Colab Notebook, to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. 
+<li>Enter 'https://github.com/jon-chun/sentimentarcs_notebooks/blob/main/notebooks/sentiment_arcs_part0_setup.ipynb' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+<li> When the Colab notebook opens, select [File]->[Save a Copy in Drive] from the top left menu bar to create a copy of this notebook in a new browser tab and switch to the new copy titled 'Copy of...'
+<li>Select the parent directory where to create the SentimentArcs_Notebooks subdirectories and execute all cells (Authorize this Colab notebook to connect to your gDrive).
+<li>You should never run SentimentArcs Notebook #0 Setup again (unless deleting and reinstalling)
+</ol>
+</ol>
+
+### **Processing Pipeline**: Run for each Corpus
+<ol>
 <li>Run the first code cell to 'Connect Google GDrive' and grant permission for this notebook to connect to your GDrive.
 <li>Edit the input on the second code cell to point to the SentimentArcs project directory you defined in Step 1 and other information asked. Be sure to execute this code cell after entering this information.
 <li>Executing the next cell should copy over the current SentimentArcs code from Github if it does not already exist in your GDrive.
