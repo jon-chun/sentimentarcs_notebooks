@@ -255,6 +255,15 @@ To set up SentimentArcs, please carefully follow the instructions below as each 
 
 ### **Processing Pipeline**: Run for each Corpus
 <ol>
+<li>Run the SentimentArcs Notebooks in order from #1 to #6
+<ol>
+<li>Notebook #1: <b>Clean Text</b> (Required) Your starting raw text should be in plain text format, utf-8 encoded with blocks of text (titles, paragraphs) separated by two newlines.
+<li>Notebook #2: <b>Lexical R</b> (Recommended) This notebook uses both Python and R Jupyter kernels to perform simple yet explainable sentiment analysis using the R Libraries SyuzhetR (lexical) and SentimentR (lexical with heuristic rules)
+<li>Notebook #3: <b>Lexical/ML</b> (Optional, refactoring) This notebook uses simple lexical to simple stastistical machine learning sentiment analysis models in Python to calculate sentiment.
+<li>Notebook #4: <b>DNN/AutoML</b> (Optional, refactoring) This notebook uses more sophisticated deep neural networks to calculate sentiment. It is uses both popular DNN architectures as well as AutoML approaches and can take longer to run.
+<li>Notebook #5: <b>Transformers</b> (Recommended) This uses a variety Transfomer models to calculate sentiment. These are considered the best state-of-the-art (SOTA) sentiment analysis models, but our research shows this is not always the case. Our findings show performance needs to be optimized by jointly considering both each specific corpus and particular model.
+<li>Notebook #6: <b>Analysis</b> (Required) This notebook combines the raw sentiment time series from all models run and then normalizes, smooths and plots them both individually and together. It also detects peaks/valleys, extracts corresponding text around these crux points and calculates metrics.
+</ol>
 <li>Run the first code cell to 'Connect Google GDrive' and grant permission for this notebook to connect to your GDrive.
 <li>Edit the input on the second code cell to point to the SentimentArcs project directory you defined in Step 1 and other information asked. Be sure to execute this code cell after entering this information.
 <li>Executing the next cell should copy over the current SentimentArcs code from Github if it does not already exist in your GDrive.
