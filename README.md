@@ -130,7 +130,7 @@ For literary experts features like peaks and valleys often correspond to key cru
 <div id="background"></div>
 <h2>Background</h2>
 
-SentimentArcs is the result of many years of our experiences researching a wide variety of AI and machine learning techniques to assist human experts in the extremely challenging task of analyzing and generating natural language texts. This includes a focus on AffectiveAI approaches to analyzing diverse textual corpora including literature, social media, news, scripts, lyrics, speeches, poems, financial reports, legal documents, etc. Virtually all sequential long-form texts have detectable and measurable sentiment changes over time that reveals cohesive narrative elements. SentimentArcs helps domain experts efficiently arbitrate between competing machine learning and AI NLP models to quickly and efficiently identify, analyze and discover latent narratives elements and emotional arcs in text. 
+SentimentArcs is the result of many years of our experiences researching a wide variety of AI and machine learning techniques to assist human experts in the extremely challenging task of analyzing and generating natural language texts. This includes a focus on AffectiveAI approaches to analyzing diverse textual corpora including literature, social media, news, scripts, lyrics, speeches, poems, financial reports, legal documents, etc. Virtually all sequential long-form texts have detectable and measurable sentiment changes over time that reveal cohesive narrative elements. SentimentArcs helps domain experts efficiently arbitrate between competing machine learning and AI NLP models to quickly and efficiently identify, analyze and discover latent narratives elements and emotional arcs in text. 
 
 <img src="images/banner_cambridge_elements_digital_literary_studies.jpg" alt="Cambridge Elements: Digital Literary Studies">
 
@@ -183,7 +183,7 @@ SOTA Transformer and DNN short text sentiment classifiers report over 97% accura
 <div id="notebooks"></div>
 <h2>Notebooks and Dataflow</h2>
 
-Concretely, SentimentArcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical Domain Experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
+Concretely, SentimentArcs consists of a series of software modules embodied as Jupyter notebooks and supporting libraries designed to work on Google's free Colab service. Notebooks are executed in sequence reflecting different steps in the pipeline from text cleaning to sentiment time series analysis. Despite some shortcomings, Google Colab offers the lowest technical barrier for the widest range of non-technical domain experts as well as powerful-GPU backed Jupyter notebooks required for the most powerful state-of-the-art models in our ensemble. SentimentArc models/notebooks include:
 
 SentimentArcs is best viewed as an ordered pipeline of Google Colab Jupyter Notebooks that are run in sequence as follows:
 
@@ -221,7 +221,7 @@ SentimentArcs can be viewed as an end-to-end pipeline to detect, extract, prepro
 * Financial Texts
 * Social Media
 
-For example, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well-recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora span approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author, Ian McEwan. Early 20th century modernists are emphasized by authors like Marcel Proust and Virginia Woolf. In sum, the corpora include (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
+For example, the reference corpus for novels consists of 25 narratives selected to create a diverse set of well-recognized novels that can serve as a benchmark for sentiment analysis of other texts. The novel corpora spans approximately 2300 years from Homer’s Odyssey to the 2019 Machines like Me by award-winning author Ian McEwan. Early 20th century modernists are emphasized by authors like Marcel Proust and Virginia Woolf. In sum, the corpora include (1) the two most popular novels on Gutenberg.org (Project Gutenberg, 2021b), (2) eight of the fifteen most assigned novels at top US universities (EAB, 2021), and (3) three works that have sold over 20 million copies (Books, 2021). There are eight works by women, two by African-Americans and five works by two LGBTQ authors. Britain leads with 15 authors followed by 6 Americans and one each from France, Russia, North Africa and Ancient Greece.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -233,7 +233,7 @@ SentimentArcs relies upon Google to provide easy-to-use, ubiquitous and free acc
 
 * Google GMail Account (to have access to GDrive)
 * Activate <a href="https://workspace.google.com/u/0/marketplace/app/colaboratory/1014160490159">Colab Jupyter Notebooks</a> to your GDrive from the Google Workspace Market
-* Github account (if you which to report issues or comment)
+* Github account (to report issues or comment)
 
 Colab Jupyter Notebooks offer several significant advantages including easy access via an intuitive web browser, low/no support costs and a powerful GPU backend VM for free.  However, it comes with some limitations to be aware of including required sequential execution, latencies and limited interface design. 
 
@@ -255,9 +255,9 @@ To set up SentimentArcs, please follow the instructions below carefully as each 
 <div id="examples"></div>
 <h2>Examples</h2>
 
-At DHColab we use Sentiment Analysis to analyze and extract features from all kinds of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc. SentimentArcs is a formalization of many of the best practices we developed over the years.  Each type of text (e.g. Novels, Social Media, News, Financial Texts, etc) shares common anlysis techniques as well as requires customized methodologies tailored to each genre. For example, for novels we are seeking to surface latent features of narrative like plot, financial texts often reveal shifts in investor sentiment, and peaks/valleys in social media sentiment can reflect shifts in public opinion on current events, political candidates or new products/services.
+At DHColab we use Sentiment Analysis to analyze and extract features from all kinds of texts including: novels, social media, news, filings financial filings, lyrics, speeches, research papers, lyrics, poems, etc. SentimentArcs is a formalization of many of the best practices we developed over the years.  Each type of text (e.g. Novels, Social Media, News, Financial Texts, etc) shares common analysis techniques as well as requires customized methodologies tailored to each genre. For example, for novels we are seeking to surface latent features of narrative like plot, financial texts often reveal shifts in investor sentiment, and peaks/valleys in social media sentiment can reflect shifts in public opinion on current events, political candidates or new products/services.
 
-In addition to Dr. Elkins Cambridge Elements text referenced above, here are serveral examples from our DHColab that demonstrate the use of sentiment analysis to analyze various types of text.
+In addition to Dr. Elkins' Cambridge Elements text referenced above, here are several examples from our DHColab that demonstrate the use of sentiment analysis to analyze various types of text.
 
 <b>Novels:</b>
 
@@ -286,7 +286,7 @@ In addition to Dr. Elkins Cambridge Elements text referenced above, here are ser
 <div id="contact"></div>
 <h2>Contact and Contribute</h2>
 
-SentimentArcs arose from a multi-year collaboration between academia and industry and across disciplines including comparative literature, econometrics, social sciences, data analytics and ML/AI among others. The world is too interconnected and the solutions to interesting important challenging problems are too complex for any one domain expert.
+SentimentArcs arose from a multi-year collaboration between academia and industry and across disciplines including comparative literature, econometrics, social sciences, data analytics and ML/AI among others. The world is too interconnected, the interesting problems are too challenging and the solutions are both too complex as well as interdisciplinary in nature for any one domain expert.
 
 As a result, we welcome collaboration and contributions that can help grow SentimentArcs into the premier NLP tool for sentiment analysis which includes experts from both technical and non-technical domains. Here are just a few ways you could contribute to SentimentArcs, the broader Digital Humanities, and NLP community:
 
